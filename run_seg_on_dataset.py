@@ -64,7 +64,7 @@ def main(inputs_path, output_dir):
 if __name__ == "__main__":
     inputs_path = [
         os.path.join("/home/nlp/egsotic/data/ner_heb/NEMO/single", f"{split}.txt")
-        for split in ['train'] #['dev', 'test','train']
+        for split in ['dev', 'test','train']
     ]
     
     output_dir = "/home/nlp/egsotic/data/ner_heb/NEMO/single_preseg_rft_default"
